@@ -712,6 +712,10 @@ section,
   margin-bottom: 0;
 }
 
+.parrafo {
+  font-size: 30px;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -719,6 +723,7 @@ section,
   position: relative;
   padding-top: 160px;
   background: linear-gradient(135deg, color-mix(in srgb, var(--accent-color), transparent 95%) 50%, color-mix(in srgb, var(--accent-color), transparent 98%) 25%, transparent 50%);
+  padding-bottom: 0px;
 }
 
 .hero::before {
@@ -738,7 +743,7 @@ section,
 }
 
 .hero .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 6.5rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -964,6 +969,7 @@ section,
   color: var(--accent-color);
   font-weight: 600;
   margin-bottom: 1rem;
+  font-size: 47px;
   display: inline-block;
 }
 

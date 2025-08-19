@@ -50,33 +50,14 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Inicio</a></li>
-          <li><a href="#about">Nosotros</a></li>
-          <li><a href="#features">Características</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#pricing">Precios</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+          <li><a href="#about">Nuestro Trabajo</a></li>
+          <li><a href="#features">Lo que hacemos</a></li>
           <li><a href="#contact">Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Empezar</a>
+      <!--<a class="btn-getstarted" href="index.html#about">Empezar</a>-->
 
     </div>
   </header>
@@ -86,45 +67,84 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
-              <div class="company-badge mb-4">
-                <i class="bi bi-gear-fill me-2"></i>
-                Tu Proyecto Exitoso
-              </div>
 
-              <h1 class="mb-4">
-                Sistemas que <br>
-                Mueven al Mundo<br>
-                Creados con<br>
-                <span class="accent-text">Artify Framework</span>
+              <h1 class="mb-4 text-center">
+                <span class="accent-text">Automatiza Tu Negocio</span><br>
               </h1>
+              <p class="text-center mb-0 parrafo">Sistemas que Mueven al Mundo</p>
 
-              <p class="mb-4 mb-md-5">
-                Personalización y flexibilidad Máxima en todos tus programas.
-              </p>
-
-              <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Empezar</a>
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-link mt-2 mt-sm-0 glightbox">
-                  <i class="bi bi-play-circle me-1"></i>
-                  Ver Video
-                </a>
-              </div>
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <!--<div class="col-lg-6">
             <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
               <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid">
             </div>
-          </div>
+          </div>-->
         </div>
 
-        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
+         <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+        <!--<div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
           <div class="col-lg-3 col-md-6">
             <div class="stat-item">
               <div class="stat-icon">
@@ -169,7 +189,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
 
       </div>
 
@@ -182,54 +202,12 @@
 
         <div class="row gy-4 align-items-center justify-content-between">
 
-          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
-            <span class="about-meta">Más Sobre Nosotros</span>
-            <h2 class="about-title">Tickify</h2>
-            <p class="about-description">Sistema Escrito en Phyton para controlar los estados de técnicos en terreno consumido por la potente api integrada a través de Artify Framework</p>
-
-            <h2 class="about-title">Caracteristicas</h2>
-            <div class="row feature-list-wrapper">
-              <div class="col-md-6">
-                <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i> Login de Acceso</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Formulario de Registro</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Listado de tickets asignados</li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i> Recuperar Contraseña de acceso</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Guía de uso</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Anular Tickets</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="info-wrapper">
-              <div class="row gy-4">
-                <div class="col-lg-5">
-                  <div class="profile d-flex align-items-center gap-3">
-                    <img src="assets/img/avatar-1.webp" alt="CEO Profile" class="profile-image">
-                    <div>
-                      <h4 class="profile-name">Mario Smith</h4>
-                      <p class="profile-position">CEO &amp; Founder</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-7">
-                  <div class="contact-info d-flex align-items-center gap-2">
-                    <i class="bi bi-telephone-fill"></i>
-                    <div>
-                      <p class="contact-label">Call us anytime</p>
-                      <p class="contact-number">+123 456-789</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-xl-12 text-center" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">Nuestro Trabajo</span>
+            <!--<h2 class="about-title">Tickify</h2>-->
           </div>
 
-          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
             <div class="image-wrapper">
               <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
                 <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
@@ -237,19 +215,119 @@
               </div>
             </div>
           </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+               <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+               <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/tickify.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/registro.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
 
-    </section><!-- /About Section -->
+    </section>
 
     <!-- Features Section -->
     <section id="features" class="features section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Características</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Lo que hacemos</h2>
+        <!--<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -347,7 +425,7 @@
     </section><!-- /Features Section -->
 
     <!-- Features Cards Section -->
-    <section id="features-cards" class="features-cards section">
+    <!--<section id="features-cards" class="features-cards section">
 
       <div class="container">
 
@@ -359,7 +437,7 @@
               <h4>Corporis voluptates</h4>
               <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
             </div>
-          </div><!-- End Feature Borx-->
+          </div>
 
           <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="feature-box blue">
@@ -367,7 +445,7 @@
               <h4>Explicabo consectetur</h4>
               <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
             </div>
-          </div><!-- End Feature Borx-->
+          </div>
 
           <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="feature-box green">
@@ -375,7 +453,7 @@
               <h4>Ullamco laboris</h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
             </div>
-          </div><!-- End Feature Borx-->
+          </div>
 
           <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="feature-box red">
@@ -383,16 +461,16 @@
               <h4>Labore consequatur</h4>
               <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
             </div>
-          </div><!-- End Feature Borx-->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Features Cards Section -->
+    </section>-->
 
     <!-- Features 2 Section -->
-    <section id="features-2" class="features-2 section">
+    <!--<section id="features-2" class="features-2 section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -410,7 +488,7 @@
                   <i class="bi bi-display"></i>
                 </div>
               </div>
-            </div><!-- End .feature-item -->
+            </div>
 
             <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
               <div class="d-flex align-items-center justify-content-end gap-4">
@@ -422,7 +500,7 @@
                   <i class="bi bi-feather"></i>
                 </div>
               </div>
-            </div><!-- End .feature-item -->
+            </div>
 
             <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
               <div class="d-flex align-items-center justify-content-end gap-4">
@@ -434,7 +512,7 @@
                   <i class="bi bi-eye"></i>
                 </div>
               </div>
-            </div><!-- End .feature-item -->
+            </div>
 
           </div>
 
@@ -442,7 +520,7 @@
             <div class="phone-mockup text-center">
               <img src="assets/img/phone-app-screen.png" alt="Phone Mockup" class="img-fluid">
             </div>
-          </div><!-- End Phone Mockup -->
+          </div>
 
           <div class="col-lg-4">
 
@@ -456,7 +534,7 @@
                   <p>Donec vitae sapien ut libero venenatis faucibus nullam quis ante etiam sit amet orci eget eros faucibus tincidunt.</p>
                 </div>
               </div>
-            </div><!-- End .feature-item -->
+            </div>
 
             <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
               <div class="d-flex align-items-center gap-4">
@@ -468,7 +546,7 @@
                   <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.</p>
                 </div>
               </div>
-            </div><!-- End .feature-item -->
+            </div>
 
             <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
               <div class="d-flex align-items-center gap-4">
@@ -480,17 +558,17 @@
                   <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus elementum semper nisi aenean vulputate.</p>
                 </div>
               </div>
-            </div><!-- End .feature-item -->
+            </div>
 
           </div>
         </div>
 
       </div>
 
-    </section><!-- /Features 2 Section -->
+    </section>-->
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
+    <!--<section id="call-to-action" class="call-to-action section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -501,7 +579,7 @@
             <a href="#" class="btn btn-cta">Call To Action</a>
           </div>
 
-          <!-- Abstract Background Elements -->
+          
           <div class="shape shape-1">
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
               <path d="M47.1,-57.1C59.9,-45.6,68.5,-28.9,71.4,-10.9C74.2,7.1,71.3,26.3,61.5,41.1C51.7,55.9,35,66.2,16.9,69.2C-1.3,72.2,-21,67.8,-36.9,57.9C-52.8,48,-64.9,32.6,-69.1,15.1C-73.3,-2.4,-69.5,-22,-59.4,-37.1C-49.3,-52.2,-32.8,-62.9,-15.7,-64.9C1.5,-67,34.3,-68.5,47.1,-57.1Z" transform="translate(100 100)"></path>
@@ -514,7 +592,7 @@
             </svg>
           </div>
 
-          <!-- Dot Pattern Groups -->
+          
           <div class="dots dots-1">
             <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
               <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -542,63 +620,9 @@
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section>-->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
+   
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section light-background">
@@ -725,13 +749,13 @@
     </section><!-- /Stats Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section light-background">
+    <!--<section id="services" class="services section light-background">
 
-      <!-- Section Title -->
+      
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -748,7 +772,7 @@
                 <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div><!-- End Service Card -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card d-flex">
@@ -761,7 +785,7 @@
                 <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div><!-- End Service Card -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card d-flex">
@@ -774,7 +798,7 @@
                 <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div><!-- End Service Card -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-card d-flex">
@@ -787,28 +811,28 @@
                 <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div><!-- End Service Card -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section> -->
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing section light-background">
+    <!--<section id="pricing" class="pricing section light-background">
 
-      <!-- Section Title -->
+      
       <div class="container section-title" data-aos="fade-up">
         <h2>Pricing</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row g-4 justify-content-center">
 
-          <!-- Basic Plan -->
+         
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="pricing-card">
               <h3>Basic Plan</h3>
@@ -842,7 +866,7 @@
             </div>
           </div>
 
-          <!-- Standard Plan -->
+          
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing-card popular">
               <div class="popular-badge">Most Popular</div>
@@ -881,7 +905,7 @@
             </div>
           </div>
 
-          <!-- Premium Plan -->
+          
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="pricing-card">
               <h3>Premium Plan</h3>
@@ -927,10 +951,10 @@
 
       </div>
 
-    </section><!-- /Pricing Section -->
+    </section> -->
 
     <!-- Faq Section -->
-    <section class="faq-9 faq section light-background" id="faq">
+    <!--<section class="faq-9 faq section light-background" id="faq">
 
       <div class="container">
         <div class="row">
@@ -954,7 +978,7 @@
                   <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item">
                 <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
@@ -962,7 +986,7 @@
                   <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item">
                 <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
@@ -970,7 +994,7 @@
                   <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item">
                 <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
@@ -978,7 +1002,7 @@
                   <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item">
                 <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
@@ -986,7 +1010,7 @@
                   <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item">
                 <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
@@ -994,17 +1018,17 @@
                   <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
             </div>
           </div>
 
         </div>
       </div>
-    </section><!-- /Faq Section -->
+    </section>-->
 
     <!-- Call To Action 2 Section -->
-    <section id="call-to-action-2" class="call-to-action-2 section dark-background">
+    <!--<section id="call-to-action-2" class="call-to-action-2 section dark-background">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
@@ -1018,15 +1042,15 @@
         </div>
       </div>
 
-    </section><!-- /Call To Action 2 Section -->
+    </section>-->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Contacto</h2>
+        <p>Si nuestros sistemas no cubren tu necesidad, contáctanos</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
